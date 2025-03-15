@@ -19,7 +19,22 @@
 - 需要解题思路指导
 - 学习不同类型问题的解题方法
 
-### 2. 笔记管理器 (tools/note_manager.py)
+### 2. 数据统计分析 (tools/statistics.py)
+
+一个强大的数据统计和分析工具，帮助您处理和可视化学习数据。
+
+**主要功能：**
+- 基本统计分析（均值、中位数、标准差等）
+- 数据可视化（直方图、散点图、箱线图等）
+- 相关性分析和回归分析
+- 数据导入导出功能
+
+**适用场景：**
+- 分析考试成绩和学习表现
+- 处理实验数据和研究结果
+- 制作数据报告和可视化图表
+
+### 3. 笔记管理器 (tools/note_manager.py)
 
 一个功能强大的笔记管理系统，帮助您组织和检索学习笔记。
 
@@ -34,7 +49,7 @@
 - 构建个人知识库
 - 准备考试复习材料
 
-### 3. 单词记忆助手 (tools/vocabulary_trainer.py)
+### 4. 单词记忆助手 (tools/vocabulary_trainer.py)
 
 基于艾宾浩斯遗忘曲线设计的单词记忆工具，科学安排复习计划。
 
@@ -49,7 +64,7 @@
 - 记忆专业术语
 - 准备语言考试
 
-### 4. 学习计时器 (tools/study_timer.py)
+### 5. 学习计时器 (tools/study_timer.py)
 
 基于番茄工作法的学习时间管理工具，帮助您保持专注和高效。
 
@@ -85,6 +100,9 @@ pip install -r requirements.txt
 # 运行问题解释器
 python tools/explain.py
 
+# 运行数据统计分析
+python tools/statistics.py
+
 # 运行笔记管理器
 python tools/note_manager.py
 
@@ -97,7 +115,7 @@ python tools/study_timer.py
 
 ## 📊 数据存储
 
-- 所有工具默认将数据存储在各自的目录中（notes/、vocabulary/、study_timer/）
+- 所有工具默认将数据存储在各自的目录中（notes/、vocabulary/、study_timer/、statistics/）
 - 数据以JSON格式保存，便于备份和迁移
 - 所有数据存储在本地，保护您的隐私
 
@@ -108,6 +126,7 @@ python tools/study_timer.py
 - 笔记管理器：自定义标签系统
 - 单词记忆助手：调整复习算法参数
 - 学习计时器：自定义工作和休息时间
+- 数据统计分析：自定义图表样式和分析参数
 
 高级用户可以通过修改源代码进一步扩展功能。
 
