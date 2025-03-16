@@ -152,7 +152,7 @@ python tools/study_timer.py
 
 ### 国内用户（支付宝）
 <div align="center">
-  <img src="docs/sponsors/qrcode_2drainbow.png" width="300" alt="赞助二维码">
+  <img src="https://raw.githubusercontent.com/Aminoas878/tools/master/docs/sponsors/qrcode_2drainbow.png" width="300" alt="赞助二维码">
   <br>
   <small>扫码后内容自动更新，有效期至2024-12-31</small>
 </div>
