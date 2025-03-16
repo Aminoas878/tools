@@ -148,8 +148,14 @@ python tools/study_timer.py
 - 改进现有功能和用户体验
 - 提供更好的文档和教程
 - 维护和更新代码库
+### 国外用户（PayPal/信用卡）
 
-点击仓库上方的"❤️ Sponsor"按钮，或[点击这里](https://github.com/sponsors/Aminoas878)支持我的工作。
+### 国内用户（支付宝）
+<div align="center">
+  <img src="docs/sponsors/qrcode_2drainbow.png" width="300" alt="赞助二维码">
+  <br>
+  <small>扫码后内容自动更新，有效期至2024-12-31</small>
+</div>
 
 ## 📜 许可证
 
